@@ -83,9 +83,7 @@ document.querySelectorAll('.video-container video').forEach(vid => {
 
 document.querySelector('.popup-video span').onclick = () =>{
 	document.querySelector('.popup-video').style.display = 'none';
-	closeVideo.onclick = () =>{
-  	mainVideo.pause();
-	}
+	document.querySelector('.popup-video video').pause();
 }
 
 </script>
