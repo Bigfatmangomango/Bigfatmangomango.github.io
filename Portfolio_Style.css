@@ -144,3 +144,12 @@ h2{
 .container .popup-video video{
 	width:95%;
 }
+
+}
+
+@media screen and (max-width: 700px){
+	.container .video-container .video{
+	height:150px;
+	width:150px;
+}
+}
