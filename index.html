@@ -15,24 +15,24 @@
 <h1>Jooen's Portfolio</h1>
 
 <div class="video-container">
-	<div class="video"><video src="images/video-1.mp4" muted></video></div>
-	<div class="video"><video src="images/video-2.mp4" muted></video></div>
-	<div class="video"><video src="images/video-3.mp4" muted></video></div>
-	<div class="video"><video src="images/video-4.mov" muted></video></div>
-	<div class="video"><video src="images/video-5.mp4" muted></video></div>
-	<div class="video"><video src="images/video-6.mov" muted></video></div>
-	<div class="video"><video src="images/video-7.mp4" muted></video></div>
-	<div class="video"><video src="images/video-8.mp4" muted></video></div>
-	<div class="video"><video src="images/video-9.mp4" muted></video></div>
-	<div class="video"><video src="images/video-10.mp4" muted></video></div>
-	<div class="video"><video src="images/video-11.mp4" muted></video></div>
-	<div class="video"><video src="images/video-12.mkv" muted></video></div>
-	<div class="video"><video src="images/video-13.mp4" muted></video></div>
-	<div class="video"><video src="images/video-14.mp4" muted></video></div>
-	<div class="video"><video src="images/video-15.mp4" muted></video></div>
-	<div class="video"><video src="images/video-16.mp4" muted></video></div>
-	<div class="video"><video src="images/video-17.mp4" muted></video></div>
-	<div class="video"><video src="images/video-18.mp4" muted></video></div>
+	<div class="video"><video src="images/video-1.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-2.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-3.mp4#t=12" muted></video></div>
+	<div class="video"><video src="images/video-4.mov#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-5.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-6.mov#t=4" muted></video></div>
+	<div class="video"><video src="images/video-7.mp4#t=5" muted></video></div>
+	<div class="video"><video src="images/video-8.mp4#t=3" muted></video></div>
+	<div class="video"><video src="images/video-9.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-10.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-11.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-12.mkv#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-13.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-14.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-15.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-16.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-17.mp4#t=0.001" muted></video></div>
+	<div class="video"><video src="images/video-18.mp4#t=0.001" muted></video></div>
 </div>
 
 <div class="popup-video">
@@ -74,11 +74,14 @@ Lee is currently working on a new project entitled <i>Vie in vivo</i> which is i
 
 <script>
 
+
+
 document.querySelectorAll('.video-container video').forEach(vid => {
 	vid.onclick = () =>{
 		document.querySelector('.popup-video').style.display = 'block';
 		document.querySelector('.popup-video video'). src = vid.getAttribute('src');
 		}
+		
 });
 
 document.querySelector('.popup-video span').onclick = () =>{
