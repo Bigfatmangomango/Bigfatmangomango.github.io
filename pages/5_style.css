@@ -1,0 +1,82 @@
+.jeu{
+	background-color: black;
+	text-align: center;
+	font-family: "courier New";
+	color: white;
+}
+.backbutton{
+  padding: 5px 5px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: black;
+}
+.backbutton:hover{
+  background-color: #808080;
+}
+.disabled {
+  cursor: not-allowed;
+ }
+.courts{
+	background-color: blue;
+	text-align: center;
+}
+.titres{
+	font-size: 160%;
+	font-family: "courier New";
+	color: white;
+	text-align: left;
+	margin: 60px 20px 20px;
+}
+.textes{
+	font-size: 90%;
+	font-family: "courier New";
+	color: white;
+	text-align: left;
+	margin: 10px 50px;
+}
+.imageWithText{
+	padding-left: 30px;
+	vertical-align: middle;
+	
+}
+.page4{
+	padding-left: 40px;
+	background-color: #B4A6D0;
+	
+}
+.box{
+	position: absolute;
+	top: 7%;
+	left: 63%;
+	width: 517px;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.3);
+	display: flex;
+	
+}
+.dscp1{
+	margin: 0;
+	padding-top: 12px;
+	padding-left: 15px;
+	font-size: 200%;
+	font-weight: bold;
+	color: #B4A6D0;
+	
+}
+.dscp2{
+	margin: 0;
+	padding: 15px;
+	font-size: 120%;
+	font-weight: bold;
+	color: #B4A6D0;
+	
+}
+
+.clock{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 20%;
+}
