@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel= "stylesheet" href="style07.css"/>
+<title>Numero</title>
+
+</head>
+<body class="text">
+<h1>Combien de chaises voyez-vous ?</h1>
+<button class="button" onclick="valeur()"> Répondre </button>
+
+<p>
+<div class="mySlides">
+  <img src="1.jpg" width=50%>
+</div>
+
+<div class="mySlides">
+  <img src="2.jpg" width=50%>
+</div>
+
+<div class="mySlides">
+  <img src="3.jpg" width=50%>
+</div>
+
+<div class="mySlides">
+  <img src="4.jpg" width=50%>
+</div>
+
+<div class="mySlides">
+  <img src="5.jpg" width=50%>
+</div>
+
+<div class="mySlides">
+  <img src="6.jpg" width=50%>
+</div>
+
+<div class="mySlides">
+  <img src="7.jpg" width=50%>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+  <span class="dot"></span>  
+</div>
+
+</p>
+
+<script>
+
+
+	function valeur (){
+		let seuil = 10;
+		let user_value = prompt("Entrez la valeur");
+		if(user_value<seuil){
+			alert("la valeur est trop petite");
+		}else if(user_value>seuil){
+			alert("la valeur est trop grande");
+		}else{
+			alert ("la valeur est correcte");
+		}
+	}
+
+
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+</body>
+
+</html>

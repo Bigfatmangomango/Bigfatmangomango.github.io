@@ -1,0 +1,37 @@
+.text{
+	background-color: #B4A6D0; 
+	color: white; 
+	text-align: center;
+	margin-top: 4%; 
+}
+.button{
+	font-family: "courier New";
+	border: none;
+	background-color: white;
+	padding: 12px 32px;
+	border-radius: 8px;
+	display: inline-block;
+
+}
+.button:hover{
+	background-color: grey; 
+	color: white; 
+}
+
+.mySlides {
+	display: none;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
