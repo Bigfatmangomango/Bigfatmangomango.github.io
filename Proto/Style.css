@@ -1,0 +1,496 @@
+@font-face{
+	font-family: 'tokyo2020';
+	src: url('fonts/TOKYO2020VIE-Light-final.otf') format('opentype');
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: 'tokyo2020';
+	src: url('fonts/TOKYO2020VIE-Regular-final.otf');
+	font-weight: bold;
+}
+
+
+@font-face{
+	font-family: 'tokyo2020';
+	src: url('fonts/TOKYO2020VIE-Bold-final.otf');
+	font-weight: 900;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.main{
+	width: 100;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.logo-header{
+	z-index: 2;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-header .logo .logoF{
+	display: inline-block;
+	margin: -20px;
+
+}
+
+.logo{
+	opacity: 0;
+}
+
+.logoF{
+	width: 200px;
+	height: 200px;
+}
+
+.logo.active{
+	opacity: 1;
+	transition: ease-in-out 0.5s;
+}
+
+
+.back-video{
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.video{
+	opacity: 0;
+}
+
+.video.active{
+	opacity: 1;
+	transition: ease-in-out 1s;
+}
+
+.debut{
+	opacity: 0;
+}
+
+.debut.active{
+	opacity: 1;
+	transition: ease-in-out 0.5s;
+}
+
+nav{
+	position: absolute;
+	top: 9%;
+	justify-content: center;
+	align-items: center;
+
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	display: flex;
+	margin: 45px;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn1:before{
+	content: 'A';
+	font-family: 'tokyo2020';
+	font-weight: bold;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.btn1:hover:after{
+	content: '/architecture';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 95px;
+	border-radius: 50%;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn2:before{
+	content: 'D';
+	font-family: 'tokyo2020';
+	font-weight: bold;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn2:hover:after{
+	content: '/design&do';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 95px;
+	border-radius: 50%;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.btn3:before{
+	content: 'M';
+	font-family: 'tokyo2020';
+	font-weight: bold;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn3:hover:after{
+	content: '/multimedia';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 95px;
+	border-radius: 50%;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn4:before{
+	content: 'T';
+	font-family: 'tokyo2020';
+	font-weight: bold;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn4:hover:after{
+	content: '/team';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 95px;
+	border-radius: 50%;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn5:before{
+	content: 'P';
+	font-family: 'tokyo2020';
+	font-weight: bold;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn5:hover:after{
+	content: '/publication';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	background: #0000FF;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 95px;
+	border-radius: 50%;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+.language{
+	text-align: center;
+	top: 90%;
+	position: absolute;
+	font-family: 'tokyo2020';
+	font-weight: normal; 
+}
+
+.language a{
+	font-size: 17px;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+}
+
+.btn-contact{
+	padding: 15px;
+}
+
+.searchbox__input{
+	appearance:none;
+	width: 100%;
+	border: none;
+	outline: none;
+	max-width: 40px;
+	transition: 0.4s linear;
+	overflow: hidden;
+	border-radius: 50px;
+	padding: 10px;
+	opacity: 0%;
+	cursor: pointer;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+.searchbox__input:focus-within{
+		max-width: 170px;
+		opacity: 60%;
+}
+
+.search-icon{
+	width: 29px;
+	height: 32px;
+	vertical-align: middle;
+	position: absolute;
+	right: calc(50px / 2);
+	top: 50%;
+	transform: translate(50%, -50%);
+	pointer-events: none;
+}
+
+.link-vid{
+	text-align: center;
+	top: 90%;
+	left: 77%;
+	position: absolute;
+}
+
+.link-vid a{
+	font-family: 'tokyo2020';
+	font-weight: lighter;
+	font-size: 15px;
+	color: white;
+	margin: 5px;
+}
+
+
+
+@media (min-aspect-ratio: 16/9){
+	.back-video{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9){
+	.back-video{
+		width: auto;
+		height: 100%;
+	}
+
+.logo-header .logo .logoF{
+	width: auto;
+	height: 150px;
+	margin: -20px;
+	}
+
+nav ul li a{
+	margin: 39px;
+	}
+
+.language a{
+	font-size: 14px;
+	}
+
+/*.link-vid{
+	align-items: left;
+	justify-content: left;
+	text-align: justify;
+	}
+*/
+
+.link-vid a{
+	font-size: 10px;
+	}
+
+}
+
+
+/* --------------Page /architechture ------------------
+-----------------------------------------------------*/
+
+
+.main2{
+	width: 100;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	box-sizing: border-box;
+}
+
+.language-yellow{
+	text-align: center;
+	top: 90%;
+	position: absolute;
+}
+
+.language-yellow a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #FFFF00;
+	margin: 5px;
+}
+
+.searchbox__input2{
+	appearance:none;
+	width: 100%;
+	border: none;
+	outline: none;
+	max-width: 40px;
+	transition: 0.4s linear;
+	overflow: hidden;
+	border-radius: 50px;
+	background-color: #FFFF00;
+	padding: 10px;
+	opacity: 0%;
+	cursor: pointer;
+}
+
+.searchbox__input2:focus-within{
+		max-width: 170px;
+		opacity: 60%;
+}
+
+
+
+#nav-toggle{
+	position: absolute;
+	top: -100px;
+}
+
+.icon-burger{
+	transform: translateY(-50%);
+	display: inline-block;
+}
+
+.icon-burger .line{
+	width: 48px;
+	height: 3px;
+	background-color: #0000FF;
+	margin: 9px;
+	cursor: pointer;
+}
+
+
+nav .links{
+  float: none;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  top: 70px;
+  bottom: 100%;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
+
+nav .links a{
+  justify-content: start;
+}
+
+nav :checked ~ .links{
+  bottom: 0;
+}
