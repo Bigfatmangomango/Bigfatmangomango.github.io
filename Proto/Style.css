@@ -383,13 +383,17 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .logo-header .logo .logoF{
 	width: auto;
-	height: 150px;
+	height: 140px;
 	margin: -20px;
 	}
 
 nav ul li a{
-	margin: 39px;
+	margin: 38px;
 	}
+
+.language{
+	top: 85%;
+}
 
 .language a{
 	font-size: 14px;
