@@ -38,10 +38,8 @@
 .logo-header{
 	z-index: 2;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-
+	justify-content: center;
+	align-items: center;
 }
 
 .logo-header .logo .logoF{
@@ -303,7 +301,6 @@ nav ul li a{
 
 .language a{
 	font-size: 17px;
-	transform: scale(1,2);
 	text-decoration: none;
 	color: white;
 	margin: 5px;
@@ -386,8 +383,27 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .logo-header .logo .logoF{
 	width: auto;
-	height: 100px;
+	height: 150px;
 	margin: -20px;
+	}
+
+nav ul li a{
+	margin: 40px;
+	}
+
+.language a{
+	font-size: 14px;
+	}
+
+/*.link-vid{
+	align-items: left;
+	justify-content: left;
+	text-align: justify;
+	}
+*/
+
+.link-vid a{
+	font-size: 10px;
 	}
 
 }
