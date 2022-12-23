@@ -409,6 +409,44 @@ nav ul li a{
 .link-vid a{
 	font-size: 10px;
 	}
+	
+
+.btn1:before{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 22px;
+	
+}
+
+.btn2:before{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 22px;
+}
+
+.btn3:before{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 22px;
+}
+
+.btn4:before{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 22px;
+}
+
+.btn5:before{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 22px;
+}	
+
 
 }
 
