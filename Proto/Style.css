@@ -102,7 +102,7 @@ nav ul li{
 
 nav ul li a{
 	display: flex;
-	margin: 45px;
+	padding: 2.8em;
 	justify-content: center;
 	align-items: center;
 }
@@ -387,18 +387,9 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	margin: -20px;
 	}
 
-
-
-nav{
-	justify-content: space-between;
-	align-items: center;
-}
-
-
 nav ul li a{
-	justify-content: space-evenly;
-	align-items: center;
-	}
+	padding: 2.4em;
+}
 
 .language{
 	top: 80%;
@@ -418,43 +409,7 @@ nav ul li a{
 .link-vid a{
 	font-size: 10px;
 	}
-	
-
-.btn1:before{
-	width: 47px;
-	height: 47px;
-	line-height: 47px;
-	font-size: 23px;
-	
-}
-
-.btn2:before{
-	width: 47px;
-	height: 47px;
-	line-height: 47px;
-	font-size: 23px;
-}
-
-.btn3:before{
-	width: 47px;
-	height: 47px;
-	line-height: 47px;
-	font-size: 23px;
-}
-
-.btn4:before{
-	width: 47px;
-	height: 47px;
-	line-height: 47px;
-	font-size: 23px;
-}
-
-.btn5:before{
-	width: 47px;
-	height: 47px;
-	line-height: 47px;
-	font-size: 23px;
-}	
+		
 
 
 }
