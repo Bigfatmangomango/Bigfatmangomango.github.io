@@ -383,12 +383,21 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .logo-header .logo .logoF{
 	width: auto;
-	height: 130px;
+	height: 125px;
 	margin: -20px;
 	}
 
+
+
+nav{
+	justify-content: space-between;
+	align-items: center;
+}
+
+
 nav ul li a{
-	margin: 36px;
+	justify-content: space-evenly;
+	align-items: center;
 	}
 
 .language{
@@ -412,39 +421,39 @@ nav ul li a{
 	
 
 .btn1:before{
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 22px;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	font-size: 23px;
 	
 }
 
 .btn2:before{
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 22px;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	font-size: 23px;
 }
 
 .btn3:before{
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 22px;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	font-size: 23px;
 }
 
 .btn4:before{
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 22px;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	font-size: 23px;
 }
 
 .btn5:before{
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 22px;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	font-size: 23px;
 }	
 
 
