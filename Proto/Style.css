@@ -400,6 +400,86 @@ nav ul li a{
 	font-size: 14px;
 	}
 
+.btn1:after{
+	content: '/architecture';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 165px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn2:after{
+	content: '/design&do';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 165px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn3:after{
+	content: '/multimedia';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 165px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn4:after{
+	content: '/team';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 165px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn5:after{
+	content: '/publication';
+	font-family: 'tokyo2020';
+	font-weight: normal;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFF00;
+	width: 95px;
+	height: 95px;
+	line-height: 165px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+
 /*.link-vid{
 	align-items: left;
 	justify-content: left;
